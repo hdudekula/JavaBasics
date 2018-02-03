@@ -11,7 +11,7 @@ public class TryWithResources {
 	public static void main(String[] args) throws IOException {
 
 		try (FileWriter resources = new FileWriter(
-				"D:/hazi_5307/workspace/AAAA/JAVABasics/src/org/hazi//JavaIO/TryResources.txt");
+				"D:/hazi_5307/workspace/AAAA/JAVABasics/src/org/hazi/JavaIO/TryResources.txt");
 				FileWriter resources1 = new FileWriter(
 						"D:/hazi_5307/workspace/AAAA/JAVABasics/src/org/hazi//JavaIO/anotherTryResources.txt")) {
 			for (int i = 0; i < 5; i++) {
