@@ -3,4 +3,4 @@ that case we can use lambda expression to reduce the code and focus on body.
 
 -->Lambda expressions in some cases or often used in anonymous classes. 
 
--->Lambda expression has three parts. 1)argument, 2)error token and 3)body
+-->Lambda expression has three parts. 1)argument, 2)error token and 3)body.
