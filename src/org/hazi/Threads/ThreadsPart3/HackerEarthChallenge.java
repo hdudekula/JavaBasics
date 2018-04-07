@@ -6,21 +6,6 @@ import java.util.Scanner;
 
 class HackerEarthChallenge {
 	public static void main(String args[]) throws Exception {
-		/*
-		 * Sample code to perform I/O: Use either of these methods for input
-		 * 
-		 * //BufferedReader BufferedReader br = new BufferedReader(new
-		 * InputStreamReader(System.in)); String name = br.readLine(); //
-		 * Reading input from STDIN System.out.println("Hi, " + name + "."); //
-		 * Writing output to STDOUT
-		 * 
-		 * //Scanner Scanner s = new Scanner(System.in); String name =
-		 * s.nextLine(); // Reading input from STDIN System.out.println("Hi, " +
-		 * name + "."); // Writing output to STDOUT
-		 * 
-		 */
-
-		// Write your code here
 
 		Scanner scanner = new Scanner(System.in);
 		long a = 0;
@@ -33,11 +18,12 @@ class HackerEarthChallenge {
 		}
 
 		long svalue;
+
 		if (a > b) {
-			svalue = (long) Math.sqrt(a);
+			svalue = a - b;
 			System.out.println(svalue);
 		} else {
-			svalue = (long) Math.sqrt(b);
+			svalue = b - a;
 			System.out.println(svalue);
 		}
 
@@ -47,6 +33,7 @@ class HackerEarthChallenge {
 		while (condition) {
 			for (long i = 1; i <= svalue; i++) {
 				if (a % i == 0 && b % i == 0) {
+					System.out.println("values of i is " + i);
 					counter++;
 				}
 			}
